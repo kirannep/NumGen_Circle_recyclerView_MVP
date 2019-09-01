@@ -2,7 +2,6 @@ package com.example.mvpwithadapter.model
 
 class NumberGenerator {
 
-
      fun getNumbers() : ArrayList<Int> {
 
          val list:ArrayList<Int> = arrayListOf()
@@ -10,8 +9,5 @@ class NumberGenerator {
             list.add(i)
         }
         return list
-
     }
-
-
 }
